@@ -1,0 +1,17 @@
+.shipment-row {
+    display: flex;
+    padding: 32px 0;
+    justify-content: space-between;
+    box-shadow: inset 0px -1px 0px rgba(0, 0, 0, 0.1);
+
+    button {
+        width: 117px;
+        .text-svg {
+            svg {
+                position: relative;
+                vertical-align: middle;
+                margin-left: 10px;
+            }
+        }
+    }
+}
